@@ -1,0 +1,127 @@
+{% extends "base.html.twig" %}
+
+{% block carousel %}
+<!-- block de mon carousel qui sera afficher a chaque foi sur la page d'acceuil -->
+{% endblock %}
+
+
+{% block content %}
+
+<!-- division qui vont diviser le body en plusieur partie et les classes sont des classes de bootstrap qui ont permis d'utiliser la page -->
+<div class="row">
+    <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+            <image xlink:href="{{asset('assets/img/caroussel2.jpg')}}" x="-60" y="0" />
+        </svg>
+        <h2>Mohamed</h2>
+        <p>Coach sportif diplômé d'une licence métiers de la remise en forme, j'exerce depuis maintenant plus de 5 ans
+            dans une salle de sport en entreprise, dans des associations et piscines, et avec des clients particuliers
+            satisfaits de leurs progrès et ayant atteint leur objectif (perte de poids, prise de masse, renforcement
+            musculaire, remise en forme...).</br></p>
+        <p><a class="btn btn-secondary" href="#" role="button">Voir &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+            <image xlink:href="{{asset('assets/img/caroussel2.jpg')}}" x="-330" y="0" />
+        </svg>
+        <h2>Sylvie</h2>
+        <p>Coach sportif diplômé d'une licence métiers de la remise en forme, j'exerce depuis maintenant plus de 5 ans
+            dans une salle de sport en entreprise, dans des associations et piscines, et avec des clients particuliers
+            satisfaits de leurs progrès et ayant atteint leur objectif (perte de poids, prise de masse, renforcement
+            musculaire, remise en forme...).</br></p>
+        <p><a class="btn btn-secondary" href="#" role="button">Voir &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+            <image xlink:href="{{asset('assets/img/coach1.jpg')}}" x="-310" y="-40" />
+        </svg>
+        <h2>Mickael</h2>
+        <p>Coach sportif diplômé d'une licence métiers de la remise en forme, j'exerce depuis maintenant plus de 5 ans
+            dans une salle de sport en entreprise, dans des associations et piscines, et avec des clients particuliers
+            satisfaits de leurs progrès et ayant atteint leur objectif (perte de poids, prise de masse, renforcement
+            musculaire, remise en forme...).</br></p>
+        <p><a class="btn btn-secondary" href="#" role="button">Voir &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+</div><!-- /.row -->
+
+
+<!-- deuxieme partie de la page -->
+
+<hr class="featurette-divider">
+
+<div class="row featurette">
+    <div class="col-md-7">
+        <h2 class="featurette-heading">Votre coach sportif <span class="text-muted">partout en France.</span></h2>
+        <p class="lead">Nous sommes disponible dans toute la France. Vous avez forcément un de nos coachs qui réside à
+            côté de chez vous. Alors pourquoi ne pas faire du sport avec le meilleur coach sportif de votre ville ?</p>
+    </div>
+    <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+            role="img" aria-label="Placeholder: 500x500">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+            <image xlink:href="{{asset('assets/img/carte.png')}}" x="0" y="0" />
+        </svg>
+    </div>
+</div>
+
+<hr class="featurette-divider">
+
+<div class="row featurette">
+    <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Atteignez vos objectifs <span class="text-muted">avec votre coach sportif.</span>
+        </h2>
+        <p class="lead">Depuis plusieurs années nous encadrons nos clients jusqu'à la réalisation de leurs objectifs.
+            Nous adaptons nos séances en fonction de ceux-ci mais également en fonction de leurs niveau de forme, leurs
+            différents problèmes de santé, leurs âges, leurs complexes, leurs planning... Tout est pris en compte pour
+            un résultat rapide et durable.</p>
+    </div>
+    <div class="col-md-5 order-md-1">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+            role="img" aria-label="Placeholder: 500x500">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+            <image xlink:href="{{asset('assets/img/remise-en-forme.jpg')}}" x="-30" y="0" />
+        </svg>
+    </div>
+</div>
+
+<hr class="featurette-divider">
+
+<div class="row featurette">
+    <div class="col-md-7">
+        <h2 class="featurette-heading">Des prestations sur mesure <span class="text-muted">et ultra
+                personnalisées.</span></h2>
+        <p class="lead">Coach Forme vous propose + de 30 prestations. Les séances avec votre coach sportif sont ultra
+            personnalisées ! Nous prenons en compte votre niveau de santé & votre niveau sportif, votre parcours
+            sportif, vos problèmes de santé et surtout vos objectifs. Vous pouvez bien entendu cumuler les prestations
+            pour avoir un suivi sur mesure !</p>
+    </div>
+    <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+            role="img" aria-label="Placeholder: 500x500">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+            <image xlink:href="{{asset('assets/img/preparation.jpg')}}" x="-30" y="0" />
+        </svg>
+    </div>
+</div>
+
+<hr class="featurette-divider">
+
+<!-- /END THE FEATURETTES -->
+
+
+{% endblock %}
